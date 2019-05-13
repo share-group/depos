@@ -1,0 +1,17 @@
+{
+  "name": "depos",
+  "version": "1.0.0",
+  "author": "ruanzhijun",
+  "main": "main.js",
+  "scripts": {
+    "district": "node district/index.js"
+  },
+  "dependencies": {
+    "cherio": "1.0.0-rc.2",
+    "json-format": "1.0.1",
+    "lodash": "4.17.11",
+    "request": "2.88.0",
+    "request-promise": "4.2.4",
+    "rimraf": "2.6.3"
+  }
+}
