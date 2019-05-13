@@ -38,7 +38,7 @@ async function main() {
     Object.assign(json, {[code]: name});
   }
   fs.writeFileSync(districtFile, jsonFormat(json));
-  await commander(`cd ${baseDir} && git add . && git commit -m '更新全国行政区域编码' && git push --no-verify`);
+  await commander(`cd ${baseDir} && git add . && git commit -m 更新全国行政区域编码 && git push --no-verify`);
   console.log('全国行政区域编码更新完毕');
 }
 
