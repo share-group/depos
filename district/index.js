@@ -23,7 +23,7 @@ async function commander(cmd) {
 
 async function main() {
   rimraf.sync(districtFile);
-  const result = await request('http://www.mca.gov.cn/article/sj/xzqh/2019/201901-06/201904301706.html');
+  const result = await request('http://www.mca.gov.cn/article/sj/xzqh/2019/201901-06/201905271445.html');
   const $ = cherio.load(result);
   const tr = $('table tr');
 
